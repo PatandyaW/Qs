@@ -2,8 +2,6 @@ package com.example.duh
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-//import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 
@@ -18,9 +16,43 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun fTambah(view: android.view.View) {
+    fun fTambah1(view: android.view.View) {
         nomorAntrian += 1
         tampilNomor.setText(nomorAntrian.toString())
+    }
+
+    fun fTambah2(view: android.view.View) {
+        nomorAntrian += 2
+        tampilNomor.setText(nomorAntrian.toString())
+    }
+
+    fun fTambah5(view: android.view.View) {
+        nomorAntrian += 5
+        tampilNomor.setText(nomorAntrian.toString())
+    }
+
+    fun fkurang1(view: android.view.View) {
+        if (nomorAntrian >= 1) {nomorAntrian -= 1
+        tampilNomor.setText(nomorAntrian.toString())}
+        else{
+            Toast.makeText(applicationContext, "Angka lebih kecil dari 1", Toast.LENGTH_LONG).show()
+        }
+    }
+
+    fun fkurang2(view: android.view.View) {
+        if (nomorAntrian >= 2) {nomorAntrian -= 2
+            tampilNomor.setText(nomorAntrian.toString())}
+        else{
+            Toast.makeText(applicationContext, "Angka lebih kecil dari 2", Toast.LENGTH_LONG).show()
+        }
+    }
+
+    fun fkurang5(view: android.view.View) {
+        if (nomorAntrian >= 5) {nomorAntrian -= 5
+            tampilNomor.setText(nomorAntrian.toString())}
+        else{
+            Toast.makeText(applicationContext, "Angka lebih kecil dari 5", Toast.LENGTH_LONG).show()
+        }
     }
 
     fun fReset(view: android.view.View){
