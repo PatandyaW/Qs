@@ -3,10 +3,10 @@
     <string name="labeltvNomor">0</string>
     <string name="labelbReset">Reset Angka</string>
     <string name="labelbTambah1">+1</string>
-    <string name="labelbTambah2">+2</string>
+    <string name="labelbTambah2">+9</string>
     <string name="labelbTambah5">+5</string>
     <string name="labelbkurang1">-1</string>
-    <string name="labelbkurang2">-2</string>
+    <string name="labelbkurang2">-9</string>
     <string name="labelbkurang5">-5</string>
     <string name="labelnamanim">PATANDYA WISNU SURAYA_21523098</string>
 </resources>

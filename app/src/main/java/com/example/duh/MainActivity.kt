@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun fTambah2(view: android.view.View) {
-        nomorAntrian += 2
+        nomorAntrian += 9
         tampilNomor.setText(nomorAntrian.toString())
     }
 
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun fkurang2(view: android.view.View) {
-        if (nomorAntrian >= 2) {nomorAntrian -= 2
+        if (nomorAntrian >= 9) {nomorAntrian -= 9
             tampilNomor.setText(nomorAntrian.toString())}
         else{
             Toast.makeText(applicationContext, "Angka lebih kecil dari 2", Toast.LENGTH_LONG).show()
