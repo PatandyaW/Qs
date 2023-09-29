@@ -4,7 +4,7 @@
     <string name="labelbReset"> Reset </string>
     <string name="labelbTambah1">+1 </string>
     <string name="labelbTambah2">+9 </string>
-    <string name="labelbTambah5">+5 </string>
+    <string name="labelbTambah5"> +5 </string>
     <string name="labelbkurang1"> -1 </string>
     <string name="labelbkurang2"> -9 </string>
     <string name="labelbkurang5"> -5 </string>
